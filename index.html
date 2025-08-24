@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SKTD Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="cart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>SKTD E-Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="order.html">Order</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Products</h2>
+    <div class="products">
+      <div class="product" data-id="1" data-name="Dress" data-price="999" data-image="images/women dress.jpg">
+        <img src="images/women dress.jpg" alt="Dress">
+        <p>Dress - ₹999</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+      </div>
+      <div class="product" data-id="2" data-name="Shoe" data-price="1299" data-image="images/shoe.jpg">
+        <img src="images/shoe.jpg" alt="Shoe">
+        <p>Shoe - ₹1299</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+      </div>
+    
+      <div class="product" data-id="3" data-name="Pant" data-price="899" data-image="images/pant.jpg">
+        <img src="images/pant.jpg" alt="Pant">
+        <p>Pant - ₹899</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+      </div>
+      <div class="product" data-id="4" data-name="Shirt" data-price="799" data-image="images/shirt.jpg">
+        <img src="images/shirt.jpg" alt="Shirt">
+        <p>Shirt - ₹799</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+      </div>
+      <div class="product" data-id="5" data-name="Chain" data-price="599" data-image="images/chain.jpg">
+        <img src="images/chain.jpg" alt="Chain">
+        <p>Chain - ₹599</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+        
+      </div>
+      <div class="product" data-id="6" data-name="Belt" data-price="499" data-image="images/belt.jpg">
+        <img src="images/belt.jpg" alt="Belt">
+        <p>Belt - ₹499</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+      </div>
+      <div class="product" data-id="7" data-name="Ring" data-price="299" data-image="images/ring.jpg">
+        <img src="images/ring.jpg" alt="Ring">
+        <p>Ring - ₹299</p>
+        <button onclick="addToCart(this)">Add to Cart</button>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
